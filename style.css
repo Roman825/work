@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+}
+h1, p{
+    text-align: center;
+}
+body{
+    color: rgb(96, 30, 158);
+    background-color: rgb(241, 230, 183);
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+.main, .middle{
+    height: 340px;
+    width: 1180px;
+    float: left;
+    background-color: rgba(113, 218, 218, 0.521);
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 15px 30px;
+    border-radius: 25px;
+    margin-left: 350px;
+    -webkit-box-shadow: 1px 2px 14px 2px #000000; 
+box-shadow: 1px 2px 14px 2px #000000;
+}
+.lesson{
+    width: 250px;
+    height: 100px;
+    background-color: rgb(115, 255, 178);
+    margin: 10px;
+    float: left;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 1px 2px 14px -2px #000000; 
+box-shadow: 1px 2px 14px -2px #000000;
+    
+
+}
+
+hr{
+    border: 2px solid rgb(47, 27, 223);
+    border-bottom-width: 0;
+}
+.VIEW{
+    border: 2px solid rgb(47, 27, 223);
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: rgb(245, 243, 120);
+
+}
+.lesson-bottom{
+    margin-top: 45px;
+    margin-left: 5px;
+
+}
+.card{
+float: right;
+margin-right: 10px;
+}
+.text{
+    margin-top: 10px;
+}
+.lesson:hover{
+    -webkit-box-shadow: 1px 2px 15px 1px #4939df; 
+box-shadow: 1px 2px 15px 1px #4939df;
+}
+.VIEW:hover{
+    -webkit-box-shadow: 1px 2px 7px 1px #000000; 
+box-shadow: 1px 2px 7px 1px #000000;
+}
+.main:hover{
+background-color: rgba(131, 131, 240, 0.507);
+}
+.middle:hover{
+    background-color: rgba(131, 131, 240, 0.445);
+}
+
+
+
+
+
+
+
+
